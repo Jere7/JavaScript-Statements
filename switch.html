@@ -9,18 +9,23 @@
 <body>
 <script>
 
-var age = Number(prompt("What is your age", ""));
+var animal = "dog";
 
-var string = "";
-for (var counter = 1; counter < age; counter += 1) {
-    string += " Happy Bithrday \n";
-    if (counter % 14  === 0) {
+switch(animal)
+{
+    case "cat":
+        alert("Meow"); 
         break;
-    }
- }
-
-alert(string);
-
+    case "dog":
+        alert("woof");
+        break;
+    case "birth":
+        alert("pi-pi");
+        break;
+    default:
+        alert("Uknown animal");
+        break;
+}
 
 </script>  
 </body>

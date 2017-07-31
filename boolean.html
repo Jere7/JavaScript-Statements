@@ -9,17 +9,21 @@
 <body>
 <script>
 
-var age = Number(prompt("What is your age", ""));
+var isMale = true;
+var isOld = true; 
+var isOldOrMale = isOld && isMale;
+alert(isOldOrMale);
 
-var string = "";
-for (var counter = 1; counter < age; counter += 1) {
-    string += " Happy Bithrday \n";
-    if (counter % 14  === 0) {
-        break;
-    }
- }
 
-alert(string);
+var isFemale = false;
+var isOld = true; 
+var isOldOrFemale = isOld || isFemale;
+alert(isOldOrFemale);
+
+
+
+
+
 
 
 </script>  

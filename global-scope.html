@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+</head>
+<body>
+
+
+<h1>Hello bb</h1>
+<div id="output"></div>
+
+
+
+
+<script>
+    // declare a function global scope
+
+     var constant = 32;
+
+     function celsiusToFarenheit( temperature )
+
+    {
+        var farenheitTemp = temperature * 9/5 + constant;
+        return farenheitTemp;
+    }
+     
+     output.innerHTML = celsiusToFarenheit(100);
+
+    
+    //  globas scope
+
+    var x = 15;
+    if (x < 20)
+    {
+        var y = x;
+    }
+
+        var z = y
+    output.innerHTML = z;
+
+    
+</script>  
+</body>
+</html>

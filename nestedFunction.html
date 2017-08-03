@@ -16,26 +16,19 @@
 
 
 <script>
-    // 
-    function hypotenuse(a,b)
+    
+    // function hypotenuse(a,b)
 
-    {
-        function square(x)
-        {
-            return x * x;
-        }
+    // {
+    //     function square(x)
+    //     {
+    //         return x * x;
+    //     }
 
-        return Math.sqrt(square(a) + square(b));
-    }
+    //     return Math.sqrt(square(a) + square(b));
+    // }
      
-     output.innerHTML = hypotenuse(3,4);
-
-
-
-
-
-
-
+    //  output.innerHTML = hypotenuse(3,4);
 
 
 //    function hypotenuse()
@@ -55,6 +48,34 @@
 //    }
 //    output.innerHTML = hypotenuse();
     
+        // var scope = "global";
+
+        // function testScope(){
+        //     var scope = "local";
+        //     function innerFunc() 
+        //     {
+        //         return scope; 
+        //     }
+        //         return innerFunc; 
+        //     // Si le quita los parentesis muestra la funcion
+        //     // Con ellos muestra el scope q es el local en este instancia.
+        // }
+        // var innerFunc = testScope();
+        // var answer = innerFunc();
+        // output.innerHTML = answer;
+
+        var x = 50;
+        function someFunction()
+        {
+            var y = 100;
+            return x + y;
+        }    
+    
+    var answer = someFunction();
+    output.innerHTML = answer; 
+
+
+
 </script>  
 </body>
 </html>

@@ -13,7 +13,7 @@ alert("");
 break;
 
 
-#falsy values 
+#false values 
 #null, undefined, NaN(non a number), ""(empty space),0 (cero).
 
 # ==(almost same) vs ===(same equal)

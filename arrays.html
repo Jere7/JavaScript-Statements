@@ -80,8 +80,14 @@ function range(max){
 var string1 = "The quick \n brown fox jump over the \"lazy\" cat";
 var string2 = 'The quick brown fox jump over the "lazy" cat';
 var newString = string1 + string2;
+// alert(newString);
 var myArray = newString.split(" ");
-alert(myArray);
+// alert(myArray);
+var indexOfBrown = newString.indexOf("brown");
+alert(indexOfBrown);
+
+
+
 
 //  Use + operator for concatenation
 //  chartAt(index) methods for strings

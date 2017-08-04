@@ -77,14 +77,19 @@ function range(max){
 // }
 // individual Method
 
-var string1 = "The quick \n brown fox jump over the \"lazy\" cat";
-var string2 = 'The quick brown fox jump over the "lazy" cat';
+var string1 = "The quick brown fox jumps over the \"lazy\" cat ";
+var string2 = 'The quick brown fox jumps over the "lazy" cat ';
+// without a space in cat '---produce a issue showed like this = ca' 
 var newString = string1 + string2;
 // alert(newString);
 var myArray = newString.split(" ");
 // alert(myArray);
+
+
 var indexOfBrown = newString.indexOf("brown");
-alert(indexOfBrown);
+var indexOfJumps = newString.indexOf("jumps");
+var myFox = newString.slice(indexOfBrown, indexOfJumps);
+alert(myFox);
 
 
 

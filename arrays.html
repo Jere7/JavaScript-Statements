@@ -77,9 +77,17 @@ function range(max){
 // }
 // individual Method
 
-var string1 = "The quick brown fox jump over the \"lazy\" cat";
+var string1 = "The quick \n brown fox jump over the \"lazy\" cat";
 var string2 = 'The quick brown fox jump over the "lazy" cat';
-alert(string1 + string2);
+var newString = string1 + string2;
+var myArray = newString.split(" ");
+alert(myArray);
+
+//  Use + operator for concatenation
+//  chartAt(index) methods for strings
+// indexOf(string)  
+// split cuts a string into an array
+// slice copies a piece of the string
 
 
 </script>  

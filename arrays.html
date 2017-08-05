@@ -91,14 +91,30 @@ var indexOfJumps = newString.indexOf("jumps");
 var myFox = newString.slice(indexOfBrown, indexOfJumps);
 alert(myFox);
 
-
-
-
 //  Use + operator for concatenation
 //  chartAt(index) methods for strings
 // indexOf(string)  
 // split cuts a string into an array
 // slice copies a piece of the string
+
+/////////////////////////////////////////
+
+//  regular expresssions for strings
+// as is = myString.search( / /); wherever you put into pharestesis apear in this slashs
+
+var myString = "The quick brown joly jumps over the \"lazy\" dog";
+var offset = mystring.search(/\b[a-z]{5}\b/);
+alert(offset);
+
+
+
+
+
+
+
+
+
+
 
 
 </script>  

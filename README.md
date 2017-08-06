@@ -19,7 +19,13 @@ break;
 # ==(almost same) vs ===(same equal)
 
 
+ Javascript Output 
 
+windows.alert("hello");
+
+.html
+
+console.log("hello")
 
 
 

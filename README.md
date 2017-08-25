@@ -28,6 +28,15 @@ windows.alert("hello");
 console.log("hello")
 
 
+            <!--Photoshop Tricks-->
+
+<!-- Use lazo tool to impove the image -->
+
+<!-- Combine images with autoAlignLawyer  -->
+ # shift + cmd autoAlignLAwyer
+ select move tool + auto align lawyer after + again move tool + brush 
+ also make a mask and press cmd + i with color black ann select the area to fixed.
+
 
 
 
